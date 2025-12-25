@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermarket Billing System</title>
+    <link rel="stylesheet" href="supermarket.css">
+</head>
+<body>
+<div class="container">
+    <h1>Supermarket Billing</h1>
+
+    <div class="add-item">
+        <label>Product Name:</label>
+        <input type="text" id="product-name" placeholder="Enter product name">
+
+        <label>Price:</label>
+        <input type="number" id="product-price" placeholder="Enter price">
+
+        <label>Quantity:</label>
+        <input type="number" id="product-quantity" value="1" min="1">
+
+        <button id="add-to-cart-btn">Add to Cart</button>
+    </div>
+
+    <div class="cart">
+        <h2>Shopping Cart</h2>
+        <ul id="cart-items"></ul>
+
+        <div class="total">
+            <strong>Total: ₹<span id="cart-total">0.00</span></strong>
+        </div>
+
+        <button id="checkout-btn" disabled>Checkout</button>
+    </div>
+</div>
+
+<script src="supermarket.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+.container {
+    width: 500px;
+    background: white;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px gray;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.add-item label {
+    display: block;
+    margin-top: 10px;
+}
+
+.add-item input {
+    width: 100%;
+    padding: 6px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 8px;
+    width: 100%;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:disabled {
+    background: gray;
+}
+
+.cart ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cart li {
+    margin: 5px 0;
+}
+
+.total {
+    margin-top: 10px;
+    font-size: 18px;
+}
